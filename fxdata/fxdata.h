@@ -6,20 +6,29 @@ using uint24_t = __uint24;
 
 // Initialize FX hardware using  FX::begin(FX_DATA_PAGE); in the setup() function.
 
-constexpr uint16_t FX_DATA_PAGE  = 0xfd2d;
-constexpr uint24_t FX_DATA_BYTES = 180790;
+constexpr uint16_t FX_DATA_PAGE  = 0xfd02;
+constexpr uint24_t FX_DATA_BYTES = 191842;
 
 constexpr uint16_t FX_SAVE_PAGE  = 0xfff0;
 constexpr uint24_t FX_SAVE_BYTES = 2;
 
-constexpr uint24_t bananatree = 0x000000;
-constexpr uint24_t deathattackleft = 0x0032A2;
-constexpr uint24_t deathattackright = 0x0092A4;
-constexpr uint24_t deathdissolveleft = 0x00F2A6;
-constexpr uint24_t deathdissolveright = 0x0152A8;
-constexpr uint24_t deathhitleft = 0x01B2AA;
-constexpr uint24_t deathhitright = 0x01CAAC;
-constexpr uint24_t deathidleleft = 0x01E2AE;
-constexpr uint24_t deathidleright = 0x0242B0;
-constexpr uint24_t HUDBoss = 0x02A2B2;
-constexpr uint24_t punklogooutlined = 0x02AA34;
+constexpr uint24_t abutton = 0x000000;
+constexpr uint24_t bananatree = 0x000302;
+constexpr uint24_t bbutton = 0x0035A4;
+constexpr uint24_t deathattackleft = 0x0038A6;
+constexpr uint24_t deathattackright = 0x0098A8;
+constexpr uint24_t deathdissolveleft = 0x00F8AA;
+constexpr uint24_t deathdissolveright = 0x0158AC;
+constexpr uint24_t deathhitleft = 0x01B8AE;
+constexpr uint24_t deathhitright = 0x01D0B0;
+constexpr uint24_t deathidleleft = 0x01E8B2;
+constexpr uint24_t deathidleright = 0x0248B4;
+constexpr uint24_t HUDBoss = 0x02A8B6;
+constexpr uint24_t punklogooutlined = 0x02B038;
+constexpr uint24_t titlecard = 0x02C83A;
+constexpr uint24_t titleskull = 0x02CF5C;
+constexpr uint24_t arduboyFont = 0x02E75E;
+constexpr uint16_t arduboyFontWidth  = 6;
+constexpr uint16_t arduboyFontHeight = 8;
+constexpr uint16_t  arduboyFontFrames = 256;
+

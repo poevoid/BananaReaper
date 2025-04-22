@@ -60,11 +60,10 @@
 ********************************************************************************
   basic example :
 *******************************************************************************/
-
 include "Sprites.txt"
+
+image_t arduboyFont = "arduboyFont_6x8.png"
 
 
 savesection
-
-
-uint16_t 0xFFFF // No saved game state / end of game state
+uint16_t 0xFFFF  // End marker
